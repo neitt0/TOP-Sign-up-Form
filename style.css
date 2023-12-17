@@ -22,6 +22,31 @@ body > img {
 
 body::-webkit-scrollbar {
   display: none;
+  padding: 0 5vw;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 2.5rem;
+}
+
+h4 {
+  font-size: 2rem;
+}
+
+h5 {
+  font-size: 1.5rem;
+}
+
+section {
+  margin: 0 5vw;
+}
+
+section img {
+  width: 15rem;
 }
 
 /* Main Container */
@@ -36,9 +61,84 @@ body::-webkit-scrollbar {
 
 /* Logo */
 .logo {
-  display: inline;
+  display: flex;
+  align-items: center;
 }
 
 .logo img {
-  width: 100px;
+  height: 9rem;
+}
+
+.logo h1 {
+  font-size: 4rem;
+  width: 200px;
+}
+
+/* Selling Question */
+.selling-question {
+  display: flex;
+}
+
+/* Selling Pitch */
+.selling-pitch {
+  display: flex;
+}
+
+.pitch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+/* Sign Up */
+.sign-up-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.sign-up-section img {
+  width: 25rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  /* change later */
+  /* height: 100px; */
+  overflow: hidden;
+
+  width: 100%;
+  font-size: 1.563rem;
+  color: black;
+}
+
+form label:not(.shown > *) {
+  position: relative;
+  top: 2rem;
+  left: .5rem;
+}
+
+form input {
+  font-size: 1.563rem;
+}
+
+.shown {
+  display: flex;
+  position: relative;
+}
+
+.shown button {
+  flex: 1;
+}
+
+.shown label {
+  position: absolute;
+  left: .5rem;
+  top: 4px;
 }
