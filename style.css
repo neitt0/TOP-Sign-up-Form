@@ -25,6 +25,14 @@ body::-webkit-scrollbar {
   padding: 0 5vw;
 }
 
+section {
+  margin: 3rem 5vw;
+}
+
+section img {
+  width: 15rem;
+}
+
 h2 {
   font-size: 3rem;
 }
@@ -41,14 +49,6 @@ h5 {
   font-size: 1.5rem;
 }
 
-section {
-  margin: 0 5vw;
-}
-
-section img {
-  width: 15rem;
-}
-
 /* Main Container */
 .main-container {
   width: 45vw;
@@ -63,6 +63,7 @@ section img {
 .logo {
   display: flex;
   align-items: center;
+  margin-top: 3rem;
 }
 
 .logo img {
@@ -103,17 +104,25 @@ section img {
 }
 
 .sign-up-section img {
-  width: 25rem;
+  width: 35rem;
+  margin-top: 5rem;
 }
 
+.sign-up-section h2 {
+  margin-top: 3rem;
+}
+
+/* Form */
 form {
   display: flex;
   flex-direction: column;
   /* change later */
-  /* height: 100px; */
   overflow: hidden;
+  height: 2rem;
+  margin-bottom: 20rem;
 
   width: 100%;
+  margin-top: 2rem;
   font-size: 1.563rem;
   color: black;
 }
@@ -133,6 +142,10 @@ form input {
   position: relative;
 }
 
+.shown input {
+  flex: 4;
+}
+
 .shown button {
   flex: 1;
 }
@@ -141,4 +154,28 @@ form input {
   position: absolute;
   left: .5rem;
   top: 4px;
+}
+
+form button[type='submit'] {
+  margin-top: 3rem;
+  height: 2.5rem;
+  font-size: 1.25rem;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(7, 4, 1);
+}
+
+footer a {
+  text-decoration: none;
+  color: rgb(158, 122, 93);
+}
+
+.contact-container > *{
+  margin: 0 10px;
 }
