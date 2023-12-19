@@ -10,9 +10,11 @@
 <body>
   <img src="./images/christmas-background.avif" alt="">
   <div class="main-container">
-    <div class="logo">
-      <img src="./images/odin-lined.png" alt="">
-      <h1>X/MAS ODIN</h1>
+    <div class="logo-container">
+      <div class="logo">
+        <img src="./images/odin-lined.png" alt="">
+        <h1>X/MAS ODIN</h1>
+      </div>
     </div>
 
     <section class="selling-question">
@@ -35,25 +37,26 @@
     <section class="sign-up-section">
       <img src="/images/undraw_gifts_0ceh.svg" alt="">
       <h2>Sign up Now!</h2>
-      <form action="">
-        <div class="shown">
-          <label for="email">Email:</label>
-          <input type="email" name="email" id="email" autocomplete="email">
-          <button type="button">Sign up</button>
-        </div>
-
-        <label for="firstName">First Name:</label>
-        <input type="text" id="firstName" name="firstName">
-        <label for="lastName">Last Name:</label>
-        <input type="text" id="lastName" name="lastName">
-        <label for="phoneNumber">Phone Number:</label>
-        <input type="tel" id="phoneNumber" name="phoneNumber">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password">
-        <label for="confirmPassword">Confirm Password</label>
-        <input type="password" id="confirmPassword" name="confirmPassword">
-        <button type="submit">Sign Up</button>
-      </form>
+      <div class="hide">
+        <form action="">
+          <div class="shown">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" autocomplete="email">
+            <button type="button">Sign up</button>
+          </div>
+          <label for="firstName">First Name:</label>
+          <input type="text" id="firstName" name="firstName">
+          <label for="lastName">Last Name:</label>
+          <input type="text" id="lastName" name="lastName">
+          <label for="phoneNumber">Phone Number:</label>
+          <input type="tel" id="phoneNumber" name="phoneNumber">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password">
+          <label for="confirmPassword">Confirm Password:</label>
+          <input type="password" id="confirmPassword" name="confirmPassword">
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
     </section>
 
     <footer>
