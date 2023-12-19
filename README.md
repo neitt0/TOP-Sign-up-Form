@@ -16,7 +16,7 @@ I started off by brainstorming ideas for what the project would look like. First
 After designing, I challenged myself to implement something that would take more effort but makes my page (somewhat) stands out from the rest.
 I settled for this drop-down styled where more information would appears after the user click "sign up."
 
-![](./resources/TOPSUF-figma-test.mp4)
+https://github.com/neitt0/TOP-Sign-up-Form/assets/114895619/6cc7936a-38dc-4811-82e9-bec1b3476e04
 
 
 ### Final Design
